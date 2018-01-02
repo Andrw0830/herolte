@@ -1,1 +1,1 @@
-add_lunch_combo omni_hero2lte-userdebug
+add_lunch_combo omni_herolte-userdebug

@@ -14,7 +14,7 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/hero2lte/device_hero2lte.mk)
+$(call inherit-product, device/samsung/herolte/device_herolte.mk)
 $(call inherit-product, device/samsung/hero-common/hero-common.mk)
 
 # Sample: This is where we'd set a backup provider if we had one
@@ -33,9 +33,9 @@ $(call inherit-product, vendor/omni/config/common.mk)
 PRODUCT_PACKAGE_OVERLAYS += vendor/omni/overlay/CarrierConfig
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_hero2lte
-PRODUCT_DEVICE := hero2lte
-PRODUCT_MODEL := SM-G935F
+PRODUCT_NAME := omni_herolte
+PRODUCT_DEVICE := herolte
+PRODUCT_MODEL := SM-G930F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung

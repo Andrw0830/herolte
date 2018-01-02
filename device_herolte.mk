@@ -13,7 +13,7 @@
 # GNU General Public License for more details.
 #
 
-LOCAL_PATH := device/samsung/hero2lte
+LOCAL_PATH := device/samsung/herolte
 
 ###########################################################
 ### OVERLAY
